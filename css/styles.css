@@ -1,6 +1,8 @@
 /************************** TAG SELECTORS ***************************/
 h1{
-  font-size: 900%;
+  list-style: 2;
+  color: #2E8BC0;
+  font-size: 9rem;
   margin: 0;
   font-family: 'Sacramento', cursive;
 
@@ -15,25 +17,44 @@ h2{
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  color:   #5A785A;
 }
 
 hr {
   border-style: dotted none none;
   border-width: 6px;
   border-color: #C9E4C5;
+  width: 80%;
+  margin: 50px auto;
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #A0522D;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+p {
+  color: #002800;
+}
 /************************** CLASS SELECTORS ***************************/
 .topContainer {
   background-color: #B7E2F3;
   padding-left: 20px;
   position: relative;
   padding-top: 80px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .middleContainer{
   background-color: #B5CDA3;
-  padding-bottom: 20px
+  padding-top: 30px;
+  padding-bottom: 40px
 }
 
 .bottomContainer{
@@ -59,25 +80,37 @@ hr {
   padding-bottom: 20px;
 }
 .subtitle{
-  font-size: 150%;
+  color: #2E8BC0;
+  font-size: 2.5rem;
 }
 .why{
   padding-bottom: 20px;
 }
-.footer-link{
-  text-decoration:none;
-  font-weight: bold;
-  color: #A0522D;
 
+/*
+.btn {
+  background: #a4cc85;
+  background-image: -webkit-linear-gradient(top, #a4cc85, #7e946c);
+  background-image: -moz-linear-gradient(top, #a4cc85, #7e946c);
+  background-image: -ms-linear-gradient(top, #a4cc85, #7e946c);
+  background-image: -o-linear-gradient(top, #a4cc85, #7e946c);
+  background-image: linear-gradient(to bottom, #a4cc85, #7e946c);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
-.btn{
-  text-decoration:none;
-  font-weight: bold;
-  color: #A0522D;
-}
-.btn:hover{
-  text-decoration:underline;
-}
-.footer-link:hover{
-  text-decoration:underline;
+
+.btn:hover {
+  background: #c8e0b6;
+  background-image: -webkit-linear-gradient(top, #c8e0b6, #a6bd95);
+  background-image: -moz-linear-gradient(top, #c8e0b6, #a6bd95);
+  background-image: -ms-linear-gradient(top, #c8e0b6, #a6bd95);
+  background-image: -o-linear-gradient(top, #c8e0b6, #a6bd95);
+  background-image: linear-gradient(to bottom, #c8e0b6, #a6bd95);
+  text-decoration: none;
 }
